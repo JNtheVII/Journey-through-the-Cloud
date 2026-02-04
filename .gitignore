@@ -1,0 +1,9 @@
+# Ignore system files
+*.swp
+*.tmp
+
+# Ignore logs if you want
+logs/
+
+# Ignore backups
+*~
