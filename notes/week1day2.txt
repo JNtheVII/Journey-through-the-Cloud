@@ -1,0 +1,11 @@
+Today I reaffirmed how to create a file, open it in the terminal editor, and understand exactly where it lives in Linux.
+
+I also learned how to execute files that originally did not have permissions via creating a shell script and modifying the permissions.
+
+Lesson: Linux does NOT trust files by default. Execution must be explicitly allowed first. (Feb 3 26 12:13am)
+
+This is the mindset for IAM, Zero trust, Container security, SOC work (SOC = Security Operations Center).
+
+SOC work as a team to monitor, detect, investigate, and respond to security incidents ASAP.
+
+-this can include watching logs, detecting sus behavior such a data exfil, investigating alerts real and false alike, responding to incidents, and improving defenses over time.

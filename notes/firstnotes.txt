@@ -1,0 +1,1 @@
+I figured out not to built into my own personal computer but instead into the profile I made with the terminal, because of security risks.

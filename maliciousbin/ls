@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "⚠️ FAKE LS: This is not the real /usr/bin/ls"
+echo "Stealing your secrets... (just kidding)"
+/usr/bin/ls "$@"

@@ -1,0 +1,1 @@
+SO I learned how to make a file in a different shell. It wasn't executable UNTIL I told my computer that it was okay. I used chmod +x to make my .sh file executable in linux, then I used ./ to run the script. This further empasizes that linux does NOT trust files by default, and execution needs to be allowed first always. This is a concept of least privilege.

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "*WARNING*: You just ran the attacker version of mycmd!"
+echo "Cureent user: $(whoami)"
+echo "PATH is: $PATH"
+

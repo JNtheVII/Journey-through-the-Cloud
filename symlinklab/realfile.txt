@@ -1,0 +1,2 @@
+This is a REAL file
+This line was added through the symlink

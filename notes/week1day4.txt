@@ -1,0 +1,19 @@
+PATH is an ordered list of directories searched for commands.
+Linux runs the first match it finds. 
+Scripts need execute permissions. ./script runs from current directory; to modify, use export PATH="$HOME/directory:$PATH"
+NOTE* the modification reverts to original aftewr closing the terminal.
+PATH manipulation is a common attack vector.
+ALWAYS check ad verify your languages and privileges (SUDO).
+
+SO when you do NOT have certain command installed, the PATH search can fail, because Linux is supposed to be minimal.
+
+SUDO is run this command as an admin (root): it is basically linux God. 
+-root: can delete systems, change users, modify sec settings, install software, control services.
+NOTE* normal users cannot do this UNLESS they utilize sudo to TEMPORARILY borrow the root power.
+
+NOTE* normal users are the standard for beginners because its much safer (as not to delete something accidentally).
+sudo gives privileges ONLY when NEEDED. ties into the principle of least privilege (the less amount of people who have permissions to access or modify things, the safer a network/system can run) 
+
+in other words, the less privileges, the less you can really mess up.
+
+SO I learned how to create commands, run them, and why using PATH can be a security risk in the form of malicious script being guised as something such as ls, ssh, or sudo.

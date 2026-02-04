@@ -1,0 +1,43 @@
+So this is a weekly review I'm gonna start doing every week during this journey of learning. Eventually I'll learn to put this in the GitHub repo.
+
+Week 1 focused on the foundations of Linux concepts required for cloud engineering, security, and systems reliability. I had to figure out the basics of understanding the OS as an active environment. Utilizing processes, understanding the memory, and executing commands were key in helping me realize that this wasn't just a filing system.
+
+-CORE CONCEPTS
+ 1. The file system
+ -I learned to navigate the file system using tools like pwd, ls, and cd.
+ -I understood the differences between files which are stored on the disk, AND directories aka containers (folders) for files
+ -I eventually learned to create and verify directories and files using mkdir (creates folders), touch (creates files), and cat (reads files).
+ 
+ 2. Terminal and Shell fundamentals
+ -I understood that the terminal is an interface to the shell. BASH is the language used to operate within the terminal. It interprets and executes commands. 
+ -I learned to open, edit, and view files directly from the terminal. Also learned to verify those contents in my file explorer.
+
+ 3. Processes and System Awareness
+ -I understood what a process was within the terminal (a program currently running in memory)
+ -Utilized ps and ps aux to list processes while I used top to monitor system resources in real time
+ -Foreground and Background processes are different in that one stops activity within the terminal and the other one allows for terminal activity while the process is executed in the background.
+ -Learned to 'kill' (end) processes using ctrl c and kill <insert PID>
+ -PID = process ID which is a system wide identifier
+ -Job numbers - shell-specific process references
+
+ 4. Environment Variables
+ -I learned what environmental variables are, where they exist, and why they exist. 'env' used to view the list of variables.
+ -4 key variables HOME, SHELL, USER, PATH (basic ones but essential to future learning)
+ -I understood how these variables influence program behavior WITHOUT changing the code.
+
+ 5. PATH and Command resolution
+ -I learned how Linux resolves commands when typed into the shell. It searches directories in PATH from left to right; the first matching executable is run first. This comes with some risks so I learned to use which <insert command> to identify the source of the command to AVOID potential security failures.
+ -I created a custom executable script and learned ./script.sh works, how and why it works, and how it fails unless the directory is in PATH
+ -I also learned to temporarily modify PATH to create executable scripts that were otherwise not executable. 
+ -'Command not found' is NOT an error, but rather diagnostic information.
+
+ 6. Security Awareness 
+ -Further learned how PATH is security sensitive as a variable. PATH hijacking can be used to implant mal scripts which in the real world can cause damages and lost profits.
+ -Developed and early habit of verifying these commands sources, avoiding blind executions of programs, and ingraining the concept of least privilege.
+ -Minimal systems are very normal incloud and server operations and environments because the less amount of people who can access files and programs, the less of a chance to screw something up an accident.
+
+So I have comfort in navigating a linux terminal system, create, inspect, and manage processes, understand commands and how they work, explain security implications of PATH and environment variable, AND build notes for future portfolio use.
+
+All of these concepts I've learned this week directly apply to AWS EC2 (elastic cloud compute) and server management, containerized environments such as docker and kubernetes, CI/CD pipelines (automated workflow meaning continuous integration and continuous delivery), SOC investigations and incident response, andd secure system configuration and hardening aka added layers of security. As I continue to learn more, I will learn to apply this knowledge into the aforementioned systems and upload what works, what fails, and solutions to my github repository.
+
+Thank you!

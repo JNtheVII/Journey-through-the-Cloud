@@ -1,0 +1,17 @@
+Terms (aka tools for writing bash code)
+
+pwd = where am I currently at, ls = whats inside this current directory, cd = change directory, cd .. = exit out of current directory,
+directory = folders, mkdir = create a directory, touch = create a file, rm = delete files, rmdir =  delete directory, 
+rm -r = delete a non empty directory, -ri = confirmation, -rf = forced deletion (common security risk), clear =  clean the screen, nano = open a file, 
+cat = read a file, less = read a file without scrolling.
+
+So far these are the terms and concepts I have been using to learn the fundamentals of linux (Feb 2 2026). These have been usefuls in understanding how to navigate the terminal without needing to google everything.
+
+-echo = print text, -ps = list current running processes (stands for process status), -ps aux = all running processes, who owns them, cpu and memory storage, top = real time monitoring tool for linux (shows CPU usage, meomory usage) M to sort by memory, K to kill a process and Q to quit.
+
+Process is a program in the background. A PID is a process id number. A job number is a shell specific number for background tasks. Foreground process take up active use of the terminal until completion while background process leave the terminal open for activity aka typing.
+
+-grep is used to filter for a specific running processes.
+
+cp = copy, -r = recursive (copies all files and subdirectories inside it without error) 
+

@@ -1,0 +1,9 @@
+SOC roles from Entry Level to Advanced
+-Entry
+	SOC analyst I (they review alerts, follow the runbooks, escalate incidents to...)
+-Mid Level
+	SOC analyst II (they investigate incidents, correlates logs, write out detection rules)
+-Advanced level
+	SOC/Detection Engineer (build automation, improve monitoring, intefrate cloud sec tools)
+
+How it all connects is that for linux permissions, SOC prevent malware execution. FOr executable files, they detect any malicious scripts. They opt for the least amount of privileges in order to try and reduce the blast radius. And lastly, they use bash scripts for automating and responding.

@@ -1,0 +1,7 @@
+So I overwrote one of my files in the terminal on accident but now I know how to avoid doing that using -i to have linux ask before potentially overwriting.
+
+I also learned that -p is used to avoid overwriting directories when making new directories. "Create parent directories as NEEDED, and don't throw an error if they already exist" is basically how it works.
+
+I learned to use mv to rename files and directories as well as to use it in path to MOVE files from one directory to another.
+
+

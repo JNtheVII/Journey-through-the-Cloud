@@ -1,0 +1,29 @@
+SO, I'm learning more about basic commands and why they work the way they do. 
+$PATH is the variable that controls the commands.
+
+ENV is for environmental variable; you can use 'env' to list ALL of them. They are configuration knobs for programs. 
+They allow same program, different behavior, without changing code.
+
+LIST OF COMMON REAL VARIABLES
+-PATH = command discovery (think arcane stat in Elden Ring)
+-HOME = user home directory
+-USER = is the current user
+-SHELL = which shell script (like BASH)
+-AWS_REGION = cloud region
+-AWS_PROFILE = which credentials
+-PYTHONPATH = python imports
+-KUBECONFIG = kubernetes access
+-DATABASE_URL = Database connections
+
+Later I'll learn about potential risks when it comes to PATH and env variables, such as misconfigured PATH = privilege escalation RISK.
+
+ALWAY INSPECT YOUR TERMINAL ENVIRONMENTS!
+PATH decides what runs, ENV decides how it runs. 
+
+You can then ask 'which' to a command to identify and learn where it comes from. 
+
+Going further into day four of week 1, you ALWAYS want to check your command sources to AVOID running potentially malicious scripts.
+-which python, which bash, which sudo.
+All of these things can be manipulated by an attacker using a mal script earlier in PATH, common ones like ls, ssh, sudo.
+
+WHAT I LEARNED FROM A PATH ATTACK (and what to look out for)
